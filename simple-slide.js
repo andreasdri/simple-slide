@@ -31,6 +31,11 @@ if(Meteor.isClient) {
       if((event.keyCode === 37 || event.keyCode === 32) && Session.get('activeSlide') !== 1) {
         Session.set('activeSlide', Session.get('activeSlide')-1);
       }
+    },
+    'click' : function(event) {
+      if(Session.get('activeSlide') !== SimpleSlide.settings.numberOfSlides){
+        Session.set('activeSlide', Session.get('activeSlide')+1);
+      }
     }
   });
 }
