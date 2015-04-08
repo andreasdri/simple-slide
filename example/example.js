@@ -1,7 +1,7 @@
 if(Meteor.isClient) {
   SimpleSlide.config({
     numberOfSlides: 2,
-    className: 'slides',
+    className: 'slide',
     prefix: 'slide-'
   });
 }

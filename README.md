@@ -9,7 +9,7 @@ meteor add andybb:simple-slide
 
 ## Example usage
 
-See 'example' folder.
+See 'example' folder. Live demo: http://simple-slide.meteor.com
 
 ## Simple usage
 
