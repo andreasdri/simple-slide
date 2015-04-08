@@ -1,0 +1,9 @@
+<body>
+{{>presentation}}
+</body>
+
+<template name="presentation">
+	<section class="{{className}}">
+	{{> Template.dynamic template=activeSlide}}
+	</section>
+</template>
